@@ -1,0 +1,14 @@
+int main() {
+    int count_1 = 25;
+    float y = 10 / 2;
+    char c = 'a';
+    char s = "hello";
+    /* multi line
+       comment */
+    if (count_1 > 5) { return 0; }
+    char d = 'ab';
+    char t = "no end;
+    # x = 3;
+    int Int = 7;
+}
+/* band nahi hua

@@ -1,0 +1,140 @@
+Token  :  Keyword
+Lexeme :  int
+Line No:  1
+
+Token  :  Keyword
+Lexeme :  main
+Line No:  1
+
+Token  :  Operator
+Lexeme :  (
+Line No:  1
+
+Token  :  Operator
+Lexeme :  )
+Line No:  1
+
+Token  :  Operator
+Lexeme :  {
+Line No:  1
+
+Token  :  Keyword
+Lexeme :  int
+Line No:  2
+
+Token  :  Identifier
+Lexeme :  x
+Line No:  2
+
+Token  :  Operator
+Lexeme :  =
+Line No:  2
+
+Token  :  Number
+Lexeme :  10
+Line No:  2
+
+Token  :  Operator
+Lexeme :  ;
+Line No:  2
+
+Token  :  Keyword
+Lexeme :  char
+Line No:  4
+
+Token  :  Identifier
+Lexeme :  c
+Line No:  4
+
+Token  :  Operator
+Lexeme :  =
+Line No:  4
+
+Token  :  Char
+Lexeme :  'a'
+Line No:  4
+
+Token  :  Operator
+Lexeme :  ;
+Line No:  4
+
+Token  :  Keyword
+Lexeme :  char
+Line No:  5
+
+Token  :  Identifier
+Lexeme :  d
+Line No:  5
+
+Token  :  Operator
+Lexeme :  =
+Line No:  5
+
+Token  :  Error
+Lexeme :  Char constant too long
+Line No:  5
+
+Token  :  Identifier
+Lexeme :  x
+Line No:  6
+
+Token  :  Operator
+Lexeme :  =
+Line No:  6
+
+Token  :  Identifier
+Lexeme :  x
+Line No:  6
+
+Token  :  Operator
+Lexeme :  +
+Line No:  6
+
+Token  :  Number
+Lexeme :  5
+Line No:  6
+
+Token  :  Operator
+Lexeme :  ;
+Line No:  6
+
+Token  :  Keyword
+Lexeme :  float
+Line No:  7
+
+Token  :  Identifier
+Lexeme :  y
+Line No:  7
+
+Token  :  Operator
+Lexeme :  =
+Line No:  7
+
+Token  :  Error
+Lexeme :  String constant exceeds line
+Line No:  7
+
+Token  :  Error
+Lexeme :  symbol not defined ~
+Line No:  8
+
+Token  :  Keyword
+Lexeme :  return
+Line No:  9
+
+Token  :  Number
+Lexeme :  0
+Line No:  9
+
+Token  :  Operator
+Lexeme :  ;
+Line No:  9
+
+Token  :  Operator
+Lexeme :  }
+Line No:  10
+
+Token  :  Error
+Lexeme :  unclosed comment
+Line No:  11
+
