@@ -10,4 +10,5 @@ def main():
             f.write(f"Token  :  {tknType}\n")
             f.write(f"Lexeme :  {lexeme}\n")
             f.write(f"Line No:  {lineNo}\n\n")
+        print("Lexer has run successfully! --> Open output.txt")
 main()
