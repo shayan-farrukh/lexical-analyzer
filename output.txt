@@ -2,215 +2,95 @@ Token  :  Keyword
 Lexeme :  int
 Line No:  1
 
+Token  :  Identifier
+Lexeme :  x
+Line No:  1
+
+Token  :  Keyword
+Lexeme :  void
+Line No:  2
+
 Token  :  Keyword
 Lexeme :  main
-Line No:  1
+Line No:  2
 
 Token  :  Operator
 Lexeme :  (
-Line No:  1
+Line No:  2
+
+Token  :  Keyword
+Lexeme :  void
+Line No:  2
 
 Token  :  Operator
 Lexeme :  )
-Line No:  1
+Line No:  2
 
 Token  :  Operator
 Lexeme :  {
-Line No:  1
+Line No:  3
 
 Token  :  Keyword
 Lexeme :  int
-Line No:  2
-
-Token  :  Identifier
-Lexeme :  count_1
-Line No:  2
-
-Token  :  Operator
-Lexeme :  =
-Line No:  2
-
-Token  :  Number
-Lexeme :  25
-Line No:  2
-
-Token  :  Operator
-Lexeme :  ;
-Line No:  2
-
-Token  :  Keyword
-Lexeme :  float
-Line No:  3
-
-Token  :  Identifier
-Lexeme :  y
-Line No:  3
-
-Token  :  Operator
-Lexeme :  =
-Line No:  3
-
-Token  :  Number
-Lexeme :  10
-Line No:  3
-
-Token  :  Operator
-Lexeme :  /
-Line No:  3
-
-Token  :  Number
-Lexeme :  2
-Line No:  3
-
-Token  :  Operator
-Lexeme :  ;
-Line No:  3
-
-Token  :  Keyword
-Lexeme :  char
 Line No:  4
 
 Token  :  Identifier
-Lexeme :  c
+Lexeme :  a
 Line No:  4
 
-Token  :  Operator
-Lexeme :  =
-Line No:  4
-
-Token  :  Char
-Lexeme :  'a'
+Token  :  Identifier
+Lexeme :  b
 Line No:  4
 
 Token  :  Operator
 Lexeme :  ;
 Line No:  4
-
-Token  :  Keyword
-Lexeme :  char
-Line No:  5
-
-Token  :  Identifier
-Lexeme :  s
-Line No:  5
-
-Token  :  Operator
-Lexeme :  =
-Line No:  5
-
-Token  :  String
-Lexeme :  "hello"
-Line No:  5
-
-Token  :  Operator
-Lexeme :  ;
-Line No:  5
 
 Token  :  Keyword
 Lexeme :  if
-Line No:  8
+Line No:  5
 
 Token  :  Operator
 Lexeme :  (
-Line No:  8
+Line No:  5
 
 Token  :  Identifier
-Lexeme :  count_1
-Line No:  8
+Lexeme :  a
+Line No:  5
 
 Token  :  Operator
 Lexeme :  >
-Line No:  8
+Line No:  5
 
 Token  :  Number
 Lexeme :  5
-Line No:  8
-
-Token  :  Operator
-Lexeme :  )
-Line No:  8
+Line No:  5
 
 Token  :  Operator
 Lexeme :  {
-Line No:  8
+Line No:  5
 
-Token  :  Keyword
-Lexeme :  return
-Line No:  8
+Token  :  Identifier
+Lexeme :  a
+Line No:  6
+
+Token  :  Operator
+Lexeme :  =
+Line No:  6
 
 Token  :  Number
-Lexeme :  0
-Line No:  8
+Lexeme :  1
+Line No:  6
 
 Token  :  Operator
 Lexeme :  ;
-Line No:  8
+Line No:  6
+
+Token  :  Operator
+Lexeme :  }
+Line No:  7
 
 Token  :  Operator
 Lexeme :  }
 Line No:  8
-
-Token  :  Keyword
-Lexeme :  char
-Line No:  9
-
-Token  :  Identifier
-Lexeme :  d
-Line No:  9
-
-Token  :  Operator
-Lexeme :  =
-Line No:  9
-
-Token  :  Error
-Lexeme :  Char constant too long
-Line No:  9
-
-Token  :  Keyword
-Lexeme :  char
-Line No:  10
-
-Token  :  Identifier
-Lexeme :  t
-Line No:  10
-
-Token  :  Operator
-Lexeme :  =
-Line No:  10
-
-Token  :  Error
-Lexeme :  String constant exceeds line
-Line No:  10
-
-Token  :  Error
-Lexeme :  symbol not defined #
-Line No:  11
-
-Token  :  Keyword
-Lexeme :  int
-Line No:  12
-
-Token  :  Identifier
-Lexeme :  Int
-Line No:  12
-
-Token  :  Operator
-Lexeme :  =
-Line No:  12
-
-Token  :  Number
-Lexeme :  7
-Line No:  12
-
-Token  :  Operator
-Lexeme :  ;
-Line No:  12
-
-Token  :  Operator
-Lexeme :  }
-Line No:  13
-
-Token  :  Error
-Lexeme :  unclosed comment
-Line No:  14
 

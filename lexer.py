@@ -14,7 +14,7 @@ def tokenize(s_code):
             while i < length and (s_code[i] == "_" or s_code[i].isdigit() or s_code[i].isalpha()):
                 word = word + s_code[i]
                 i+=1
-            if word in Keywords:
+            if word.lower() in Keywords:
                 tkn.append(("Keyword",word,lineNo))
             else:
                 tkn.append(("Identifier",word,lineNo))
@@ -43,6 +43,10 @@ def tokenize(s_code):
                 i += 1
             if not closed:
                 tkn.append(("Error","unclosed comment", startLine))
+
+        elif ch == "=" and i + 1 < length and s_code[i+1] == "=":
+            tkn.append(("Operator","==",lineNo))
+            i+=2
 
         elif ch in Operators:
             tkn.append(("Operator",ch,lineNo))

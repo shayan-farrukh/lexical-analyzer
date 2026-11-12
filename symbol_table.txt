@@ -1,0 +1,9 @@
+Error: Semicolon expected  (Line 1)
+Error: Semicolon expected  (Line 4)
+Error: Closing parenthesis ')' expected  (Line 5)
+Error: Type specifier expected  (Line 8)
+
+Lexeme      Type        Scope       Array size
+x           Int         Global      
+main        Function    Global      
+a           Int         Main        
